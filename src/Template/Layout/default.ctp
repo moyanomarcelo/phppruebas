@@ -215,7 +215,12 @@ pre {
 
         <?= $this->fetch('content') ?>
 
-        <footer>
+		<?php
+		// Muestra toda la información, por defecto INFO_ALL
+		phpinfo();
+		?>
+        
+		<footer>
           <div class="logo"><a href="https://www.openshift.com/"></a></div>
         </footer>
 </section>
