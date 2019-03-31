@@ -133,5 +133,10 @@ oc deploy cakephp-mysql-example --latest
 				<?php
 					echo "Hola Mundo Cruel";
 				?>
+				
+				<?php
+					// Muestra toda la información, por defecto INFO_ALL
+					phpinfo();
+				?>
           </section>
         </div>
