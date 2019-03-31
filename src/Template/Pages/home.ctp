@@ -126,10 +126,12 @@ oc deploy cakephp-mysql-example --latest
                    <span class="code" id="count-value"><?php print_r($result['c']); ?></span>
                    </p>
                 <?php else : ?>
-                   <span class="code" id="count-value">No database configured</span>
+                   <span class="code" id="count-value">No database configured.</span>
                    </p>
                 <?php endif; ?>
 				
-				<?php phpinfo(); ?>
+				<?php
+					echo "Hola Mundo Cruel";
+				?>
           </section>
         </div>
