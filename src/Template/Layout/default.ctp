@@ -215,10 +215,6 @@ pre {
 
         <?= $this->fetch('content') ?>
 
-		
-		<?= phpinfo() ?>
-
-        
 		<footer>
           <div class="logo"><a href="https://www.openshift.com/"></a></div>
         </footer>
